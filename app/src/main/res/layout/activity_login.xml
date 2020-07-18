@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/logo_cellep_branco" />
 
     <Button
-        android:id="@+id/btn_entrar"
+        android:id="@+id/btnEntrar"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginStart="100dp"
@@ -27,20 +27,20 @@
         android:text="Entrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_senha" />
+        app:layout_constraintTop_toBottomOf="@+id/edtSenhaLogin" />
 
     <Button
-        android:id="@+id/btn_cadastro"
+        android:id="@+id/btnCadastrarLogin"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:text="Cadastrar"
-        app:layout_constraintEnd_toEndOf="@+id/btn_entrar"
-        app:layout_constraintStart_toStartOf="@+id/btn_entrar"
-        app:layout_constraintTop_toBottomOf="@+id/btn_entrar" />
+        app:layout_constraintEnd_toEndOf="@+id/btnEntrar"
+        app:layout_constraintStart_toStartOf="@+id/btnEntrar"
+        app:layout_constraintTop_toBottomOf="@+id/btnEntrar" />
 
     <EditText
-        android:id="@+id/input_user"
+        android:id="@+id/edtUsuario"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/logo_cellep" />
 
     <EditText
-        android:id="@+id/input_senha"
+        android:id="@+id/edtSenhaLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -74,9 +74,9 @@
         android:textAlignment="center"
         android:textColor="@color/cardview_light_background"
         android:textColorHint="@color/colorTextHint"
-        app:layout_constraintEnd_toEndOf="@+id/input_user"
-        app:layout_constraintStart_toStartOf="@+id/input_user"
-        app:layout_constraintTop_toBottomOf="@+id/input_user" />
+        app:layout_constraintEnd_toEndOf="@+id/edtUsuario"
+        app:layout_constraintStart_toStartOf="@+id/edtUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/edtUsuario" />
 
     <ImageView
         android:id="@+id/logo_estacao_hack"
