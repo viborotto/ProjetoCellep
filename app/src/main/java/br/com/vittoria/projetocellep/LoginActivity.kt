@@ -38,5 +38,10 @@ class LoginActivity : AppCompatActivity() {
                     .show()
             }
         }
+
+        //Abrir tela de cadastro
+        btnCadastrarLogin.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, CadastroActivity::class.java))
+        }
     }
 }
