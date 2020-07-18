@@ -75,7 +75,7 @@ class CadastroActivity : AppCompatActivity() {
                 spn.setSelection(0)
 
                 //Abrir a tela Main
-                startActivity(Intent(this@CadastroActivity, MainActivity::class.java).apply {
+                startActivity(Intent(this@CadastroActivity, LoginActivity::class.java).apply {
                     //passar o parametro que usei para cadastrar, no caso o email, para recuperar as infos utilzada na outra
                     putExtra("email", email)
                 })

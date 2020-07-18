@@ -1,10 +1,13 @@
 package br.com.vittoria.projetocellep
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_cadastro.*
 import kotlinx.android.synthetic.main.activity_login.*
+import kotlinx.android.synthetic.main.activity_main.*
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,6 +15,15 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         //TODO recuperar email e senha para que consiga logar e va para a MainActivity
+        //Recuperar o email da Intent
+        val emailRecuperado = intent.getStringExtra("email")
+
+        //Abrindo o Shared Preferences
+        val minhaPreferencia = getSharedPreferences("cadastro-$emailRecuperado", Context.MODE_PRIVATE)
+
+        //Recuperando os dados do Shared Preference e substituir no TextView correspondente
+        val nome =  minhaPreferencia.getString("nome", "Chave não encontrada")
+        val senhaCadastrada = minhaPreferencia.getString("senha", "Chave não encontrada")
 
         //Clique do botao entrar
         btnEntrar.setOnClickListener {
@@ -27,12 +39,14 @@ class LoginActivity : AppCompatActivity() {
             } else if (senha.isEmpty()){
                 edtSenhaLogin.error = "Campo obrigatório"
                 edtSenhaLogin.requestFocus()
-            } else if (usuario == "viborotto" && senha == "12345678"){
+            } else if (usuario == nome && senha == senhaCadastrada){
                 //Apresentando uma mensagem ao usuario
                 Toast.makeText(this@LoginActivity, "Usuário logado com sucesso", Toast.LENGTH_LONG)
                     .show()
                 //Abrir a tela main
-                startActivity(Intent(this@LoginActivity, MainActivity::class.java))
+                startActivity(Intent(this@LoginActivity, MainActivity::class.java).apply {
+                    putExtra("email", emailRecuperado)
+                })
                 //tirar a tela do empilhamento
                 finish()
             } else {
