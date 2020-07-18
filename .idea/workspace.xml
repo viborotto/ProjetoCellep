@@ -7,13 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad7c5f22-f931-4233-aa6b-6382482ba27e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/vittoria/projetocellep/activity_facebook.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/vittoria/projetocellep/nubank_page.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/facebook_svg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_facebook.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_nubank_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_help_outline_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nubank_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/unlock.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_nubank_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_nubank_page.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +54,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="memory.settings.postsync.last.time.stamp" value="1595017589367" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
     <key name="android.template.-83375752">
       <recent name="br.com.vittoria.projetocellep" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
     </key>
   </component>
   <component name="RunManager">
@@ -135,10 +144,15 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="484" y="296" key="AndroidCreateResourceFileDialog" timestamp="1595025672798">
-      <screen x="0" y="23" width="1792" height="1022" />
+    <state x="2311" y="305" key="AndroidCreateResourceFileDialog" timestamp="1595029610907">
+      <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="484" y="296" key="AndroidCreateResourceFileDialog/0.23.1792.1022/1792.23.1920.1057@0.23.1792.1022" timestamp="1595025672798" />
+    <state x="2311" y="305" key="AndroidCreateResourceFileDialog/0.23.1792.1022/1792.23.1920.1057@1792.23.1920.1057" timestamp="1595029610907" />
+    <state x="2529" y="336" key="chooseDestDirectoryDialog" timestamp="1595029841217">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2529" y="336" key="chooseDestDirectoryDialog/0.23.1792.1022/1792.23.1920.1057@1792.23.1920.1057" timestamp="1595029841217" />
     <state x="1892" y="123" width="1720" height="857" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1595027194196">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>

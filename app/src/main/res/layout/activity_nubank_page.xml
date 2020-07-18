@@ -6,4 +6,166 @@
     android:layout_height="match_parent"
     tools:context=".nubank_page">
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="311dp"
+        android:layout_height="307dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cartao_virtual"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/nubank_card"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <TextView
+        android:id="@+id/cartao_virtual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:shadowColor="#7900AB"
+        android:text="Cartão Virtual"
+        android:textColor="#B5000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nome_titular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Titular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="131dp"
+        android:layout_height="18dp"
+        android:text="VITTORIA BOROTTO"
+        android:textColor="#6D00A1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/data_venc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nome_titular"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/data_venc"
+        android:layout_width="83dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="39dp"
+        android:text="Data de Vencimento"
+        app:layout_constraintEnd_toStartOf="@+id/codigo_seg"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/apagar_cartao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="80dp"
+        android:text="Apagar Cartão"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/apagar_cartao2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Bloquear"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <TextView
+        android:id="@+id/codigo_seg"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="76dp"
+        android:shadowColor="#520081"
+        android:text="Cod. de Segurança"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/cod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="377"
+        android:textColor="#6D00A1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/codigo_seg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/codigo_seg"
+        app:layout_constraintTop_toBottomOf="@+id/codigo_seg" />
+
+    <TextView
+        android:id="@+id/data_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12/26"
+        android:textColor="#6D00A1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/data_venc"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/data_venc"
+        app:layout_constraintTop_toBottomOf="@+id/data_venc" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="47dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/data_id"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cod"
+        app:srcCompat="@drawable/unlock" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_help_outline_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>
