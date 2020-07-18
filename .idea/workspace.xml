@@ -8,6 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ad7c5f22-f931-4233-aa6b-6382482ba27e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/vittoria/projetocellep/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/vittoria/projetocellep/LoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +158,10 @@
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="1892" y="123" width="1720" height="857" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1792.1022/1792.23.1920.1057@1792.23.1920.1057" timestamp="1595027194196" />
+    <state x="762" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1595077263400">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state x="762" y="346" key="com.intellij.ide.util.TipDialog/0.23.1792.1022/1792.23.1920.1057@0.23.1792.1022" timestamp="1595077263400" />
     <state x="2417" y="241" width="670" height="629" key="search.everywhere.popup" timestamp="1595038333834">
       <screen x="1792" y="23" width="1920" height="982" />
     </state>

@@ -14,7 +14,6 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        //TODO recuperar email e senha para que consiga logar e va para a MainActivity
         //Recuperar o email da Intent
         val emailRecuperado = intent.getStringExtra("email")
 
