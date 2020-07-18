@@ -18,18 +18,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/vittoria/projetocellep/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/vittoria/projetocellep/LoginActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/vittoria/projetocellep/activity_facebook.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/vittoria/projetocellep/nubank_page.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/delete.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_help_outline_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nubank_card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/unlock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/unlock.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_facebook.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_nubank_page.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/vittoria/projetocellep/CadastroActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/vittoria/projetocellep/CadastroActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cadastro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cadastro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,9 +169,10 @@
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="1892" y="123" width="1720" height="857" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1792.1022/1792.23.1920.1057@1792.23.1920.1057" timestamp="1595027194196" />
-    <state x="2417" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1595036587086">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state x="2417" y="241" width="670" height="629" key="search.everywhere.popup" timestamp="1595038333834">
+      <screen x="1792" y="23" width="1920" height="982" />
     </state>
     <state x="2417" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1792.1022/1792.23.1920.1057@1792.23.1920.1057" timestamp="1595036587086" />
+    <state x="2417" y="241" width="670" height="629" key="search.everywhere.popup/0.23.1792.1097/1792.23.1920.982@1792.23.1920.982" timestamp="1595038333834" />
   </component>
 </project>
