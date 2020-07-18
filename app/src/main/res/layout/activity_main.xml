@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/bem_vindo"
+        android:id="@+id/txvBemVindo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
@@ -16,27 +16,27 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/nome_completo"
+        app:layout_constraintBottom_toTopOf="@+id/txvNome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/sair"
+        android:id="@+id/btnSair"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
         android:text="sair"
-        app:layout_constraintBottom_toTopOf="@+id/site_cellep"
+        app:layout_constraintBottom_toTopOf="@+id/btnSite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/genero" />
+        app:layout_constraintTop_toBottomOf="@+id/txvGenero" />
 
     <Button
-        android:id="@+id/site_cellep"
+        android:id="@+id/btnSite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -47,41 +47,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sair" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSair" />
 
     <TextView
-        android:id="@+id/nome_completo"
+        android:id="@+id/txvNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nome Completo"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/main_email"
+        app:layout_constraintBottom_toTopOf="@+id/txvEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bem_vindo" />
+        app:layout_constraintTop_toBottomOf="@+id/txvBemVindo" />
 
     <TextView
-        android:id="@+id/main_email"
+        android:id="@+id/txvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="E-mail"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/genero"
+        app:layout_constraintBottom_toTopOf="@+id/txvGenero"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nome_completo" />
+        app:layout_constraintTop_toBottomOf="@+id/txvNome" />
 
     <TextView
-        android:id="@+id/genero"
+        android:id="@+id/txvGenero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gênero"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/sair"
+        app:layout_constraintBottom_toTopOf="@+id/btnSair"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_email" />
+        app:layout_constraintTop_toBottomOf="@+id/txvEmail" />
 </androidx.constraintlayout.widget.ConstraintLayout>

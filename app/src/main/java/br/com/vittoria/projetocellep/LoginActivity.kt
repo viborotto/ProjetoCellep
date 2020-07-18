@@ -11,6 +11,8 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        //TODO recuperar email e senha para que consiga logar e va para a MainActivity
+
         //Clique do botao entrar
         btnEntrar.setOnClickListener {
             //Capturar o texto que o usuario digitou nos EditText

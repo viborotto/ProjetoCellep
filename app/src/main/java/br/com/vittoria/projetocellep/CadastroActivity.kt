@@ -1,6 +1,7 @@
 package br.com.vittoria.projetocellep
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -72,6 +73,16 @@ class CadastroActivity : AppCompatActivity() {
                 edtEmail.text.clear()
                 edtSenhaCadastro.text.clear()
                 spn.setSelection(0)
+
+                //Abrir a tela Main
+                startActivity(Intent(this@CadastroActivity, MainActivity::class.java).apply {
+                    //passar o parametro que usei para cadastrar, no caso o email, para recuperar as infos utilzada na outra
+                    putExtra("email", email)
+                })
+
+                //Tirar todas as outras telas anteriores do empilhamento
+                //Todas as telas com afinidade, anteriores empilhadas
+                finishAffinity()
             }
         }
     }
